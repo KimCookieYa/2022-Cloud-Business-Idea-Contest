@@ -1,0 +1,1128 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAGE8n74e5qnmX4=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAGE8n74e5qoim0=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGE8n+f0pquL0k=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8n+f0pqsrXU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8n+f0pqvr7I=",
+									"_parent": {
+										"$ref": "AAAAAAGE8n+f0pquL0k="
+									},
+									"font": "Arial;13;0",
+									"left": 162,
+									"top": 178,
+									"width": 68.63720703125,
+									"height": 26,
+									"text": "동아리 모집기간",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 152,
+							"top": 168,
+							"width": 88.63720703125,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8n+f0pqvr7I="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGE8n/f6Jq3kn4=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8n/f55q1TCs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8n/f6Jq4iRQ=",
+									"_parent": {
+										"$ref": "AAAAAAGE8n/f6Jq3kn4="
+									},
+									"font": "Arial;13;0",
+									"left": 290,
+									"top": 178,
+									"width": 93,
+									"height": 26,
+									"text": "신입부원 모집 및 단체 홍보",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 280,
+							"top": 168,
+							"width": 113,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8n/f6Jq4iRQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGE8oAybJrA9IU=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oAybJq+OXg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8oAybJrBdHs=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oAybJrA9IU="
+									},
+									"font": "Arial;13;0",
+									"left": 442,
+									"top": 186,
+									"width": 77,
+									"height": 13,
+									"text": "지원자 면접",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 432,
+							"top": 176,
+							"width": 97,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oAybJrBdHs="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGE8oHuCJrRhNE=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oHuCJrPhXw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8oHuCJrS80o=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oHuCJrRhNE="
+									},
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 322,
+									"width": 61,
+									"height": 13,
+									"text": "단체 활동",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 168,
+							"top": 312,
+							"width": 81,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oHuCJrS80o="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oJGm5rmitk=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oJGm5rkiCo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oJGm5rnHKc=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oJGm5rmitk="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oJGm5rkiCo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 260,
+									"top": 171,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oJGm5rmitk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8n/f6Jq3kn4="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8n+f0pquL0k="
+							},
+							"lineStyle": 2,
+							"points": "240:192;280:192",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oJGm5rnHKc="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAGE8oKR0pr/w80=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oKR0pr9Khk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8oKR0psAUUk=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oKR0pr/w80="
+									},
+									"font": "Arial;13;0",
+									"left": 596.542236328125,
+									"top": 181,
+									"width": 57.08447265625,
+									"height": 26,
+									"text": "면접 합격?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 568,
+							"top": 168,
+							"width": 114.1689453125,
+							"height": 52,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oKR0psAUUk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oLEF5sNXiY=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oLEF5sLmHg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oLEF5sODC0=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oLEF5sNXiY="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oLEF5sLmHg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 412,
+									"top": 171,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oLEF5sNXiY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8oAybJrA9IU="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8n/f6Jq3kn4="
+							},
+							"lineStyle": 2,
+							"points": "392:192;432:192",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oLEF5sODC0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oLMh5sWul8=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oLMh5sUL6A="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oLMh5sXZ2M=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oLMh5sWul8="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oLMh5sUL6A="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 548,
+									"top": 171,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oLMh5sWul8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8oKR0pr/w80="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8oAybJrA9IU="
+							},
+							"lineStyle": 2,
+							"points": "528:192;568:192",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oLMh5sXZ2M="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oLjTZsfN0U=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oLjTZsdl7k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oLjTZsgQH0=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oLjTZsfN0U="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oLjTZsdl7k="
+									},
+									"font": "Arial;13;0",
+									"left": 564,
+									"top": 159,
+									"width": 39,
+									"height": 13,
+									"alpha": 2.9514491903216626,
+									"distance": 243.38652386687312,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oLjTZsfN0U="
+									},
+									"edgePosition": 1,
+									"text": "불합격"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8pGTqZyAVmk="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8oKR0pr/w80="
+							},
+							"points": "624:168;624:120;64:120;64:176",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oLjTZsgQH0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oNhnpsyiV4=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oNhnpswuZg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oNhnpsz0sE=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oNhnpsyiV4="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oNhnpswuZg="
+									},
+									"font": "Arial;13;0",
+									"left": 386,
+									"top": 241,
+									"width": 26,
+									"height": 13,
+									"alpha": -0.4156235089176019,
+									"distance": 29.732137494637012,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oNhnpsyiV4="
+									},
+									"edgePosition": 1,
+									"text": "합격"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8oHuCJrRhNE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8oKR0pr/w80="
+							},
+							"lineStyle": 3,
+							"points": "682:198;808:208;48:304;167:322",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oNhnpsz0sE="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGE8oSY55tKzuc=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oSY55tII6I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8oSY55tLwlM=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oSY55tKzuc="
+									},
+									"font": "Arial;13;0",
+									"left": 298,
+									"top": 322,
+									"width": 61,
+									"height": 13,
+									"text": "일정 관리",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 288,
+							"top": 312,
+							"width": 81,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oSY55tLwlM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGE8oSsjZtTD0o=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oSsjJtRUWo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8oSsjZtUIn4=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oSsjZtTD0o="
+									},
+									"font": "Arial;13;0",
+									"left": 418,
+									"top": 322,
+									"width": 101,
+									"height": 13,
+									"text": "활동 기록 보관",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 408,
+							"top": 312,
+							"width": 121,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oSsjZtUIn4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oVxm5tsE1A=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oVxm5tqZAs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oVxnJttm/c=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oVxm5tsE1A="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oVxm5tqZAs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 268,
+									"top": 307,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oVxm5tsE1A="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8oSY55tKzuc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8oHuCJrRhNE="
+							},
+							"lineStyle": 2,
+							"points": "248:328;288:328",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oVxnJttm/c="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oV6KZt1vZM=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oV6KZtzqyg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oV6KZt2XmU=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oV6KZt1vZM="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oV6KZtzqyg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 388,
+									"top": 307,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oV6KZt1vZM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8oSsjZtTD0o="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8oSY55tKzuc="
+							},
+							"lineStyle": 2,
+							"points": "368:328;408:328",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oV6KZt2XmU="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAGE8omdzJu751g=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8omdy5u57Zc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8omdzJu840s=",
+									"_parent": {
+										"$ref": "AAAAAAGE8omdzJu751g="
+									},
+									"font": "Arial;13;0",
+									"left": 596.542236328125,
+									"top": 317,
+									"width": 57.08447265625,
+									"height": 26,
+									"text": "활동 학기 연장?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 568,
+							"top": 304,
+							"width": 114.1689453125,
+							"height": 52,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8omdzJu840s="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8ooMBJvEdWE=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8ooMBJvCcyc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8ooMBJvF5XA=",
+									"_parent": {
+										"$ref": "AAAAAAGE8ooMBJvEdWE="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8ooMBJvCcyc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 548,
+									"top": 308,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8ooMBJvEdWE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8omdzJu751g="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8oSsjZtTD0o="
+							},
+							"lineStyle": 2,
+							"points": "528:329;568:329",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8ooMBJvF5XA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8oq95ZvjKYY=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8oq95Zvhhcg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8oq95ZvkV9I=",
+									"_parent": {
+										"$ref": "AAAAAAGE8oq95ZvjKYY="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8oq95Zvhhcg="
+									},
+									"font": "Arial;13;0",
+									"left": 632,
+									"top": 368,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 3.2210708946960542,
+									"distance": 226.71568097509268,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8oq95ZvjKYY="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8oHuCJrRhNE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8omdzJu751g="
+							},
+							"points": "624:355;624:392;208:392;208:344",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8oq95ZvkV9I="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGE8o7E9Zw7k1g=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8o7E9Zw5x4c="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8o7E9Zw8Zu8=",
+									"_parent": {
+										"$ref": "AAAAAAGE8o7E9Zw7k1g="
+									},
+									"font": "Arial;13;0",
+									"left": 730,
+									"top": 322,
+									"width": 68.63720703125,
+									"height": 26,
+									"text": "동아리 탈퇴",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 720,
+							"top": 312,
+							"width": 88.63720703125,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8o7E9Zw8Zu8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8o8CvJxPbwM=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8o8CvJxN7Fg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8o8CvJxQYFU=",
+									"_parent": {
+										"$ref": "AAAAAAGE8o8CvJxPbwM="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8o8CvJxN7Fg="
+									},
+									"font": "Arial;13;0",
+									"left": 692,
+									"top": 307,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8o8CvJxPbwM="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8o7E9Zw7k1g="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8omdzJu751g="
+							},
+							"lineStyle": 2,
+							"points": "681:328;720:328",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8o8CvJxQYFU="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGE8pGTqZyAVmk=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8pGTqZx+GRw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGE8pGTqZyBSis=",
+									"_parent": {
+										"$ref": "AAAAAAGE8pGTqZyAVmk="
+									},
+									"font": "Arial;13;0",
+									"left": 26,
+									"top": 186,
+									"width": 68.63720703125,
+									"height": 13,
+									"text": "학기 시작",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 16,
+							"top": 176,
+							"width": 88.63720703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGE8pGTqZyBSis="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGE8pHsw5yPRhI=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n74e5qoim0="
+							},
+							"model": {
+								"$ref": "AAAAAAGE8pHsw5yNQYs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGE8pHsw5yQOoY=",
+									"_parent": {
+										"$ref": "AAAAAAGE8pHsw5yPRhI="
+									},
+									"model": {
+										"$ref": "AAAAAAGE8pHsw5yNQYs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 128,
+									"top": 167,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGE8pHsw5yPRhI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGE8n+f0pquL0k="
+							},
+							"tail": {
+								"$ref": "AAAAAAGE8pGTqZyAVmk="
+							},
+							"lineStyle": 2,
+							"points": "104:188;152:188",
+							"nameLabel": {
+								"$ref": "AAAAAAGE8pHsw5yQOoY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGE8n+f0pqsrXU=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "동아리 모집기간",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oJGm5rkiCo=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n+f0pqsrXU="
+							},
+							"source": {
+								"$ref": "AAAAAAGE8n+f0pqsrXU="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8n/f55q1TCs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGE8n/f55q1TCs=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "신입부원 모집 및 단체 홍보",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oLEF5sLmHg=",
+							"_parent": {
+								"$ref": "AAAAAAGE8n/f55q1TCs="
+							},
+							"source": {
+								"$ref": "AAAAAAGE8n/f55q1TCs="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8oAybJq+OXg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGE8oAybJq+OXg=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "지원자 면접",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oLMh5sUL6A=",
+							"_parent": {
+								"$ref": "AAAAAAGE8oAybJq+OXg="
+							},
+							"source": {
+								"$ref": "AAAAAAGE8oAybJq+OXg="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8oKR0pr9Khk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGE8oHuCJrPhXw=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "단체 활동",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oVxm5tqZAs=",
+							"_parent": {
+								"$ref": "AAAAAAGE8oHuCJrPhXw="
+							},
+							"source": {
+								"$ref": "AAAAAAGE8oHuCJrPhXw="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8oSY55tII6I="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAGE8oKR0pr9Khk=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "면접 합격?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oLjTZsdl7k=",
+							"_parent": {
+								"$ref": "AAAAAAGE8oKR0pr9Khk="
+							},
+							"name": "불합격",
+							"source": {
+								"$ref": "AAAAAAGE8oKR0pr9Khk="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8pGTqZx+GRw="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oNhnpswuZg=",
+							"_parent": {
+								"$ref": "AAAAAAGE8oKR0pr9Khk="
+							},
+							"name": "합격",
+							"source": {
+								"$ref": "AAAAAAGE8oKR0pr9Khk="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8oHuCJrPhXw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGE8oSY55tII6I=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "일정 관리",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oV6KZtzqyg=",
+							"_parent": {
+								"$ref": "AAAAAAGE8oSY55tII6I="
+							},
+							"source": {
+								"$ref": "AAAAAAGE8oSY55tII6I="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8oSsjJtRUWo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGE8oSsjJtRUWo=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "활동 기록 보관",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8ooMBJvCcyc=",
+							"_parent": {
+								"$ref": "AAAAAAGE8oSsjJtRUWo="
+							},
+							"source": {
+								"$ref": "AAAAAAGE8oSsjJtRUWo="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8omdy5u57Zc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAGE8omdy5u57Zc=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "활동 학기 연장?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8oq95Zvhhcg=",
+							"_parent": {
+								"$ref": "AAAAAAGE8omdy5u57Zc="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGE8omdy5u57Zc="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8oHuCJrPhXw="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8o8CvJxN7Fg=",
+							"_parent": {
+								"$ref": "AAAAAAGE8omdy5u57Zc="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGE8omdy5u57Zc="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8o7E9Zw5x4c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGE8o7E9Zw5x4c=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "동아리 탈퇴"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGE8pGTqZx+GRw=",
+					"_parent": {
+						"$ref": "AAAAAAGE8n74e5qnmX4="
+					},
+					"name": "학기 시작",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGE8pHsw5yNQYs=",
+							"_parent": {
+								"$ref": "AAAAAAGE8pGTqZx+GRw="
+							},
+							"source": {
+								"$ref": "AAAAAAGE8pGTqZx+GRw="
+							},
+							"target": {
+								"$ref": "AAAAAAGE8n+f0pqsrXU="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
